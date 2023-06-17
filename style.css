@@ -1,0 +1,82 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Silkscreen", sans-serif;
+}
+
+:root {
+  --bg-primary: rgb(70, 89, 255);
+  --bg-secondary: #eaeaea;
+  --text-primary: #f7f7f7;
+  --text-secondary: #222;
+  --icons-bg-primary: tomato;
+  --icon-bg-secondary: #777;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--bg-primary);
+}
+
+.judul {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  border: 1px solid white;
+  background-color: var(--bg-secondary);
+  color: var(--text-secondary);
+  padding: 28px;
+  margin: 8px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.icons {
+  font-size: 24px;
+  color: var(--icons-bg-primary);
+  margin-top: 8px;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.description {
+  font-size: 0.5em;
+  margin-top: 8px;
+}
+
+.btn {
+  margin-top: 15px;
+  padding: 8px;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  -ms-transform: rotate(2deg);
+  transform: rotate(2deg);
+  transition: 0.3s ease-in-out;
+}
+
+.btn a {
+  text-decoration: none;
+}
